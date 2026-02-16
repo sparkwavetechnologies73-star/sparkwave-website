@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SparkWave Technologies | Enquiry</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+background:linear-gradient(135deg,#1e3c72,#2a5298);
+color:white;
+}
+
+.container{
+background:rgba(255,255,255,0.08);
+backdrop-filter:blur(10px);
+padding:40px;
+border-radius:15px;
+width:380px;
+box-shadow:0 0 30px rgba(0,0,0,0.5);
+}
+
+h1{
+text-align:center;
+margin-bottom:10px;
+}
+
+p{
+text-align:center;
+font-size:14px;
+margin-bottom:25px;
+color:#ddd;
+}
+
+form{
+display:flex;
+flex-direction:column;
+}
+
+input,select,textarea{
+margin-bottom:15px;
+padding:10px;
+border:none;
+border-radius:6px;
+outline:none;
+}
+
+textarea{
+resize:none;
+height:80px;
+}
+
+button{
+padding:10px;
+border:none;
+border-radius:25px;
+background:#00ffcc;
+color:black;
+font-weight:600;
+cursor:pointer;
+transition:0.3s;
+}
+
+button:hover{
+background:white;
+}
+
+footer{
+position:absolute;
+bottom:15px;
+font-size:12px;
+color:#ccc;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+<h1>SparkWave Technologies</h1>
+<p>Engineering Project Enquiry</p>
+
+<form action="https://formsubmit.co/sparkwavetechnologies73@gmail.com" method="POST">
+
+<!-- Disable captcha -->
+<input type="hidden" name="_captcha" value="false">
+
+<!-- Redirect after submit -->
+<input type="hidden" name="_next" value="https://thankyou.page/">
+
+<input type="text" name="Name" placeholder="Full Name" required>
+<input type="text" name="Department" placeholder="Department (ECE / EEE / CSE)" required>
+<input type="text" name="College" placeholder="College Name" required>
+<input type="tel" name="Phone" placeholder="Phone Number" required>
+
+<select name="Project Type">
+<option>Mini Project</option>
+<option>Major Project</option>
+<option>Internship</option>
+</select>
+
+<textarea name="Requirement" placeholder="Describe your requirement"></textarea>
+
+<button type="submit">Submit Enquiry</button>
+
+</form>
+</div>
+
+<footer>
+© 2026 SparkWave Technologies
+</footer>
+
+</body>
+</html>  
